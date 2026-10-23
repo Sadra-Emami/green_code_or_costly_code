@@ -1,0 +1,9 @@
+openai>=1.0
+tqdm
+datasets
+line_profiler
+memory_profiler
+numpy
+loguru
+pyyaml
+polars
