@@ -1,0 +1,65 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the accompanying paper listed under preferred-citation."
+type: software
+title: "Replication package for: Green Code or Costly Code? Evaluating the Energy Costs of Iterative LLM-Based Code Optimizations"
+authors:
+  - family-names: Emami
+    given-names: Sadra
+    affiliation: "University of Augsburg"
+    email: "sadra.emami@uni-a.de"
+  - family-names: Weigell
+    given-names: Benjamin
+    affiliation: "University of Augsburg"
+    email: "benjamin.weigell@uni-a.de"
+  - family-names: Mousavi
+    given-names: Mohammad Reza
+    affiliation: "King's College London"
+    email: "mohammad.mousavi@kcl.ac.uk"
+  - family-names: Jahangirova
+    given-names: Gunel
+    affiliation: "King's College London"
+    email: "gunel.jahangirova@kcl.ac.uk"
+  - family-names: Araujo
+    given-names: Hugo
+    affiliation: "King's College London"
+    email: "hugo.araujo@kcl.ac.uk"
+  - family-names: Bauer
+    given-names: Bernhard
+    affiliation: "University of Augsburg"
+    email: "bernhard.bauer@uni-a.de"
+abstract: "Replication package for a study of the energy cost of iterative LLM based code optimization. Using the EffiLearner self refinement pipeline, 11 open source models and four decoding configurations were evaluated on all 1000 EffiBench problems, with hardware level energy measurements for both inference and execution. The optimized code is compared with canonical human reference solutions, and break even points are computed for the energy spent on generation. In 42 of 44 configurations the optimized code uses more execution energy than the human reference."
+repository-code: "https://github.com/Sadra-Emami/green_code_or_costly_code"
+license: MIT
+keywords:
+  - large language models
+  - energy consumption
+  - green software engineering
+  - code efficiency
+  - code optimization
+  - break even analysis
+preferred-citation:
+  type: conference-paper
+  title: "Green Code or Costly Code? Evaluating the Energy Costs of Iterative LLM-Based Code Optimizations"
+  authors:
+    - family-names: Emami
+      given-names: Sadra
+      affiliation: "University of Augsburg"
+    - family-names: Weigell
+      given-names: Benjamin
+      affiliation: "University of Augsburg"
+    - family-names: Mousavi
+      given-names: Mohammad Reza
+      affiliation: "King's College London"
+    - family-names: Jahangirova
+      given-names: Gunel
+      affiliation: "King's College London"
+    - family-names: Araujo
+      given-names: Hugo
+      affiliation: "King's College London"
+    - family-names: Bauer
+      given-names: Bernhard
+      affiliation: "University of Augsburg"
+  conference:
+    name: "49th IEEE/ACM International Conference on Software Engineering (ICSE 2027)"
+  year: 2027
+  status: in-press
