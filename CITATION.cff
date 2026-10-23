@@ -7,18 +7,22 @@ authors:
     given-names: Sadra
     affiliation: "University of Augsburg"
     email: "sadra.emami@uni-a.de"
+    orcid: "https://orcid.org/0009-0001-4457-0510"
   - family-names: Weigell
     given-names: Benjamin
     affiliation: "University of Augsburg"
     email: "benjamin.weigell@uni-a.de"
+    orcid: "https://orcid.org/0009-0006-8362-2746"
   - family-names: Mousavi
     given-names: Mohammad Reza
     affiliation: "King's College London"
     email: "mohammad.mousavi@kcl.ac.uk"
+    orcid: "https://orcid.org/0000-0002-4869-6794"
   - family-names: Jahangirova
     given-names: Gunel
     affiliation: "King's College London"
     email: "gunel.jahangirova@kcl.ac.uk"
+    orcid: "https://orcid.org/0000-0002-1423-1083"
   - family-names: Araujo
     given-names: Hugo
     affiliation: "King's College London"
@@ -27,6 +31,7 @@ authors:
     given-names: Bernhard
     affiliation: "University of Augsburg"
     email: "bernhard.bauer@uni-a.de"
+    orcid: "https://orcid.org/0000-0002-7931-1105"
 abstract: "Replication package for a study of the energy cost of iterative LLM based code optimization. Using the EffiLearner self refinement pipeline, 11 open source models and four decoding configurations were evaluated on all 1000 EffiBench problems, with hardware level energy measurements for both inference and execution. The optimized code is compared with canonical human reference solutions, and break even points are computed for the energy spent on generation. In 42 of 44 configurations the optimized code uses more execution energy than the human reference."
 repository-code: "https://github.com/Sadra-Emami/green_code_or_costly_code"
 license: MIT
